@@ -10,7 +10,7 @@ import SwiftUI
 struct Constants {
     // DATA
     struct Data {
-        
+        static let players: [PlayerModel] = Bundle.main.decode("player.json")
     }
     
     struct Colors {
