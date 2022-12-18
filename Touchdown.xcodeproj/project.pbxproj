@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5584228294F6DC400EC715D /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5584227294F6DC400EC715D /* NavigationBarView.swift */; };
+		A558422A294F6EB600EC715D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5584229294F6EB600EC715D /* LogoView.swift */; };
 		A58E74BD294F60660030312B /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E74BC294F60660030312B /* TouchdownApp.swift */; };
 		A58E74BF294F60660030312B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E74BE294F60660030312B /* ContentView.swift */; };
 		A58E74C1294F60680030312B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58E74C0294F60680030312B /* Assets.xcassets */; };
@@ -16,9 +18,13 @@
 		A58E74D0294F61140030312B /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = A58E74CC294F61130030312B /* product.json */; };
 		A58E74D1294F61140030312B /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = A58E74CD294F61140030312B /* brand.json */; };
 		A58E74D9294F66D20030312B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58E74D8294F66D20030312B /* Launch Screen.storyboard */; };
+		A58E74E2294F68FE0030312B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E74E1294F68FE0030312B /* Constants.swift */; };
+		A58E74E4294F69CE0030312B /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E74E3294F69CE0030312B /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5584227294F6DC400EC715D /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		A5584229294F6EB600EC715D /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		A58E74B9294F60660030312B /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58E74BC294F60660030312B /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		A58E74BE294F60660030312B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,6 +36,8 @@
 		A58E74CD294F61140030312B /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
 		A58E74D3294F61570030312B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A58E74D8294F66D20030312B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A58E74E1294F68FE0030312B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A58E74E3294F69CE0030312B /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +124,9 @@
 		A58E74DC294F67510030312B /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				A58E74E3294F69CE0030312B /* FooterView.swift */,
+				A5584227294F6DC400EC715D /* NavigationBarView.swift */,
+				A5584229294F6EB600EC715D /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -144,6 +155,7 @@
 		A58E74E0294F67970030312B /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				A58E74E1294F68FE0030312B /* Constants.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -224,7 +236,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A58E74BF294F60660030312B /* ContentView.swift in Sources */,
+				A558422A294F6EB600EC715D /* LogoView.swift in Sources */,
+				A58E74E4294F69CE0030312B /* FooterView.swift in Sources */,
 				A58E74BD294F60660030312B /* TouchdownApp.swift in Sources */,
+				A58E74E2294F68FE0030312B /* Constants.swift in Sources */,
+				A5584228294F6DC400EC715D /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
