@@ -31,6 +31,19 @@ struct ContentView: View {
                         // MARK: - Category
                         CategoryGridView()
                         
+                        // MARK: - Title Section
+                        TitleView(title: "Helmets")
+                        
+                        // MARK: - Product
+                        LazyVGrid(columns: Constants.Layout.gridLayout,
+                                  spacing: 15,
+                                  content: {
+                            ForEach(Constants.Data.products) { product in
+                                ProductItemView(product: product)
+                            }
+                        }) // LazyVGrid
+                        .padding(16)
+                        
                         // MARK: - Footer
                         FooterView()
                             .padding(.horizontal)
